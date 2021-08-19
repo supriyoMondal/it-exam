@@ -1,5 +1,5 @@
 CREATE TABLE books (
-   bookid INTEGER PRIMARY KEY,
+   bookid VARCHAR PRIMARY KEY,
    title TEXT,
    author TEXT,
    price REAL);
