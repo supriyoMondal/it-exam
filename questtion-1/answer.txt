@@ -1,0 +1,15 @@
+CREATE TABLE books (
+   bookid INTEGER PRIMARY KEY,
+   title TEXT,
+   author TEXT,
+   price REAL);
+
+
+
+INSERT INTO books VALUES (1034, "Mathematics", "M.l khanna", 520.50);
+
+INSERT INTO books VALUES (2340, "Physics", "D.C Pandey", 495);
+
+
+
+SELECT * FROM books;
